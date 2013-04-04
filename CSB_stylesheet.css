@@ -1,0 +1,83 @@
+#header {
+	color:blue;
+	font-family:Cursive;
+	font-size:40px;
+	text-align:center;
+}
+
+#tabs ul {
+padding: 0px;
+margin: 0px;
+margin-left: 10px;
+list-style-type: none;
+position: relative;
+}
+
+#tabs ul li {
+display: inline-block;
+clear: none;
+float: center;
+height: 24px;
+text-align:center;
+margin-right:auto;
+margin-left:auto;
+}
+
+#tabs ul li a {
+position: relative;
+margin-top: 16px;
+display: block;
+margin-left: 6px;
+line-height: 24px;
+padding-left: 10px;
+background: #f6f6f6;
+z-index: 9999;
+border: 1px solid #ccc;
+border-bottom: 0px;
+
+/* The following four lines are to make the top left and top right corners of each tab rounded. */
+-moz-border-radius-topleft: 4px;
+border-top-left-radius: 4px;
+-moz-border-radius-topright: 4px;
+border-top-right-radius: 4px;
+/* end of rounded borders */
+
+width: 130px;
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+
+#tabs ul li a:hover {
+text-decoration: underline; // a very simple effect when hovering the mouse on tab
+}
+
+#tabs #Content_Area { // this is the css class for the content displayed in each tab
+padding: 0 15px;
+clear:both;
+overflow:hidden;
+line-height:19px;
+position: relative;
+top: 20px;
+z-index: 5;
+height: 150px;
+overflow: hidden;
+}
+
+p { padding-left: 15px; }
+
+#content {
+	position:static;
+	color:blue;
+	font-family:cursive;
+	text-align:left;
+	border: 1px dashed red;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#home_page_image img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
